@@ -9,21 +9,21 @@ Output - Files consisting of 100 entries each (~41 files). Each file consists of
 |       projectName       |               Project Name                |              String               |
 |      promoterName       |               Promoter Name               |              String               |
 |    lastModifiedDate     |            Last Modified Date             |              String               |
-|        totalArea        |       Total Area (In Square meters)       |              String               |
-|   approvedBuiltUpArea   | Approved built up area (In Square meters) |              String               |
+|        totalArea        |       Total Area (In Square meters)       |              Number               |
+|   approvedBuiltUpArea   | Approved built up area (In Square meters) |              Number               |
 |         mandal          |                  Mandal                   |              String               |
 |         pinCode         |                 Pin Code                  |              Number               |
 |    dateOfCompletion     |        Proposed Date of Completion        |              String               |
 | revisedDateOfCompletion |    Revised Proposed Date of Completion    |              String?              |
 |      projectStatus      |              Project Status               |              String               |
 |     buildingDetails     |        List of Buildings' Details         | Array of Building Details Objects |
-|    professionalInfo     |     Project Professional Information      |  Professional Information Object  |
+|    professionalInfo     | List of Project Professional Information  |  Professional Information Object  |
 
 #### Building Details Object
-|    Name    |      Description      |         Data type         |
-|:----------:|:---------------------:|:-------------------------:|
-|    name    | Name of the Building  |          String           |
-| floorInfos | Data stored per floor | List of Floor Data object |
+|   Name    |      Description      |         Data type         |
+|:---------:|:---------------------:|:-------------------------:|
+|   name    | Name of the Building  |          String           |
+| floorInfo | Data stored per floor | List of Floor Data object |
 
 #### Floor Data Object
 |       Name       |           Description            | Data type |
@@ -37,7 +37,7 @@ Output - Files consisting of 100 entries each (~41 files). Each file consists of
 | bookedApartments |   Number of Booked Apartments    |  Number   |
 
 #### Professional Information Object
-| Name |    Description    | Data type |
-|:----:|:-----------------:|:---------:|
-| name | Professional Name |   String  |
-| type | Professional Type |   String  |
+|       Name       |    Description    | Data type |
+|:----------------:|:-----------------:|:---------:|
+| professionalName | Professional Name |   String  |
+| professionalType | Professional Type |   String  |
