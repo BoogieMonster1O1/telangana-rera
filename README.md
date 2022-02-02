@@ -1,7 +1,7 @@
 # Telangana RERA Scraper ™
 
 ## Schema  
-Output - Files consisting of 100 entries each (~41 files). Each file consists of a list of Root Objects
+Output - Files consisting of 50 entries each (81 files). Each file consists of a list of Root Objects
   
 ### Root Object
 |          Name           |                Description                |             Data type             |
