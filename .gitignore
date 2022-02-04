@@ -2,7 +2,7 @@
 cmake-build-*/
 .idea/**/mongoSettings.xml
 *.iws
-out/
+old_out/
 .idea_modules/
 atlassian-ide-plugin.xml
 .idea/replstate.xml
@@ -141,3 +141,5 @@ tags
 pyvenv.cfg
 pip-selfcheck.json
 data.csv
+old_out
+out
